@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 💻 Software Engineer Portfolio
 
-# Run and deploy your AI Studio app
+A modern, high-performance personal portfolio website built with React, TypeScript, and Tailwind CSS to showcase engineering projects, technical skills, and experience.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/837b4299-c194-4f2b-ae25-ccda3b42c44d
+## ✨ Features
 
-## Run Locally
+- **⚡ Blazing Fast:** Built with Vite and Bun for instant asset loading and fluid rendering.
+- **📱 Fully Responsive:** Clean layout optimized across mobile, tablet, and desktop viewports.
+- **🎨 Interactive UI:** Features custom startup loader animations, dynamic project grids, and interactive skill sections.
+- **📬 Contact Integration:** Built-in contact form section and social links.
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Framework:** React 18, TypeScript
+- **Styling:** Tailwind CSS
+- **Build Tooling & Runtime:** Vite, Bun / Node.js
+- **Icons:** Lucide React
+
+---
+
+## 📁 Repository Structure
+
+```text
+src/
+├── assets/images/    # Hero workspace, profile, and project media
+├── components/       # Component modules
+│   ├── AboutSection.tsx
+│   ├── ContactSection.tsx
+│   ├── Footer.tsx
+│   ├── HeroSection.tsx
+│   ├── Navbar.tsx
+│   ├── ProjectsSection.tsx
+│   ├── SkillsSection.tsx
+│   └── StartupLoader.tsx
+├── data/             # Static content & portfolio metadata (portfolioData.ts)
+├── types.ts          # TypeScript interfaces
+├── App.tsx           # Primary view wrapper
+└── main.tsx          # DOM root mounting point
